@@ -1,0 +1,169 @@
+
+/* css variables */
+@import url(./partials-css/_variables.css);
+/* start navigation */
+
+/* import global styling */
+@import url(./partials-css/_global.css);
+
+.header_area .main-menu .navbar .navbar-brand {
+  padding: 0 0rem 0 0rem;
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.header_area .main-menu .navbar {
+  padding: 1rem 2rem;
+}
+
+.header_area .main-menu .navbar .dropdown-menu {
+  min-width: 150px;
+}
+.header_area .main-menu .nav-item .nav-link {
+  font: normal 500 15px/2px var(--roboto);
+  text-transform: uppercase;
+  padding: 1rem;
+  color: var(--title-color);
+}
+
+.header_area .main-menu .navbar-nav .active a {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a:hover {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+/* end navigation */
+
+/* Project Area */
+
+.project-area .h1 {
+  margin-bottom: 10px;
+}
+.project-area {
+  padding: 7rem 2rem;
+}
+.project-area .modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.9); /* Black w/ opacity */
+}
+
+.project-area .modal .modal-title {
+  color: #000000 !important;
+  font: normal bold 29px/ 60px var(--roboto);
+}
+.project-area .modal-body img {
+  margin: 0;
+  display: block;
+  width: 98%;
+  height: auto;
+}
+
+.project-area .share-button {
+  cursor: pointer;
+}
+
+.project-area .share-button:hover:not(:active) {
+  opacity: 0.75;
+}
+
+.project-area .liked {
+  color: var(--primary-color);
+}
+
+.project-area .button-group button {
+  margin-top: 0;
+  background: transparent;
+  border: none;
+  font: normal 500 16px/130px var(--roboto);
+  text-transform: uppercase;
+}
+.project-area .button-group button:hover {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.project-area .grid .our-project .card-hover {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  top: -4%;
+  right: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s ease;
+  opacity: 0;
+  color: white;
+  text-align: center;
+}
+.project-area .grid .our-project .port-card .card-hover .card-info h3 {
+  text-transform: uppercase;
+  margin-top: 100px;
+  font-size: 22px;
+}
+.project-area .grid .our-project .port-card .card-hover .card-info .icons {
+  display: inline-block;
+  padding: 6px 13px;
+  margin-bottom: 20px;
+}
+.project-area .grid .our-project .port-card .card-hover .card-info .icons i {
+  margin: 5px;
+  cursor: pointer;
+}
+.project-area .button-group button + button {
+  padding-left: 3rem;
+}
+
+.project-area .grid .our-project > .title h4 {
+  font: normal 700 25px/12px var(--roboto);
+}
+
+.project-area .grid .our-project .img .port-card:hover img {
+  filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+}
+
+.project-area .grid .our-project .img .port-card:hover .card-hover {
+  opacity: 1;
+}
+
+/* End Project Area */
+
+/* End About Me */
+
+footer.footer-area {
+  padding: 0 3px;
+}
+
+footer.footer-area .social h5 {
+  font: normal 500 23px/ 30px var(--roboto);
+}
+
+footer.footer-area .social a > i {
+  font-size: 22px;
+  padding: 2rem;
+  color: var(--primary-color);
+}
+
+footer.footer-area .social a:hover > i {
+  color: var(--primary-color2);
+}
