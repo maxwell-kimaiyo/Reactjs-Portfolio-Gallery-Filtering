@@ -3,7 +3,7 @@
 
 ## Description
 
-A simple example that descripe of how to create a portfolio gallery with filtering.
+A simple example that describes how to create a portfolio gallery with filtering in react js
 
 ## Getting Started
 
